@@ -1,7 +1,7 @@
 
 # Detecção de Veículos com IA
 
-Este repositório contém o código-fonte e os recursos necessários para um projeto de detecção de veículos utilizando Inteligência Artificial. A detecção é realizada por meio da combinação de técnicas de Visão Computacional e Redes Neurais Convolucionais (CNN).
+Este repositório contém o código-fonte e os recursos necessários para um projeto de detecção de veículos utilizando Inteligência Artificial. A detecção é realizada por meio da combinação de técnicas de Visão Computacional e Redes Neurais Convolucionais (CNN). Como o GitHub não permiti que carregue mais de 100 arquivos de uma vez e que o tamanho limite é de 15 TB, estarei deixando na secção de Referências o link do Dropbox com as imagens utilizadas para treinar a IA. 
 
 
 <p align="center">
@@ -95,6 +95,10 @@ Esta subseção apresenta alguns trabalhos que foram utilizados como referência
  - [Real-Time Traffic Density Estimation with YOLOv8](https://www.kaggle.com/code/farzadnekouei/real-time-traffic-density-estimation-with-yolov8)
 
 Este conjunto de dados e código foram fundamentais para o desenvolvimento e treinamento do modelo de detecção de veículos neste projeto.
+
+### Arquivo Completo do Código-Fonte & Imagens utilizadas
+- [DropBox](https://www.dropbox.com/scl/fi/ykmx853vfkx6bf6ezph3r/DETECCAR.zip?rlkey=i521eryq319cwczij6fylwn3c&dl=0)
+
 ## Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
