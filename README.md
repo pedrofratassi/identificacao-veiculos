@@ -4,11 +4,15 @@
 Este repositório contém o código-fonte e os recursos necessários para um projeto de detecção de veículos utilizando Inteligência Artificial. A detecção é realizada por meio da combinação de técnicas de Visão Computacional e Redes Neurais Convolucionais (CNN).
 
 
-![Logo do projeto DETECCAR](https://i.imgur.com/5bSiK4U.png)
+<p align="center">
+    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge" />
+</p>
+
 
 ## Demonstração 
 
 ![Vídeo Demonstração](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXJ3NHZ0eDJ0ZzlycHdncjVpMWd3YTdua3Vwd2IxdDAxenJtMXk4eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eRNVYSQj9UMYCow6ls/giphy.gif)
+
 
 ## Stack utilizada
 
