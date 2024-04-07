@@ -11,9 +11,7 @@ Este repositório contém o código-fonte e os recursos necessários para um pro
 
 ## 🎥 Demonstração simples
 
-<div align="center">
-  <img     src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXJ3NHZ0eDJ0ZzlycHdncjVpMWd3YTdua3Vwd2IxdDAxenJtMXk4eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eRNVYSQj9UMYCow6ls/giphy.gif" />
-</div>
+![Demonstração](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnFndHJkNmgzdmcxMzc4aXkzdzc1NGMzaXYwZHF6ZTl3bGFyZHBhNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eRNVYSQj9UMYCow6ls/giphy.gif)
 
 ## Stack utilizada
 
