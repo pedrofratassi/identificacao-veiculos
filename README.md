@@ -11,7 +11,9 @@ Este repositório contém o código-fonte e os recursos necessários para um pro
 
 ## 🎥 Demonstração simples
 
-![Demonstração](https://github.com/pedrofratassi/identificacao-veiculos/assets/102876098/c8d2aba1-2d5a-4ee7-9cff-3d37ec796056)
+<div align="center">
+  <img src="https://github.com/pedrofratassi/identificacao-veiculos/blob/main/static/demo.gif"/>
+</div>
 
 
 ## Stack utilizada
