@@ -4,10 +4,6 @@
 Este repositório contém o código-fonte e os recursos necessários para um projeto de detecção de veículos utilizando Inteligência Artificial. A detecção é realizada por meio da combinação de técnicas de Visão Computacional e Redes Neurais Convolucionais (CNN). Como o GitHub não permiti que carregue mais de 100 arquivos de uma vez e que o tamanho limite é de 15 TB, estarei deixando na secção de Referências o link do Dropbox com as imagens utilizadas para treinar a IA. 
 
 
-<p align="center">
-    <img src="https://i.imgur.com/5bSiK4U.png" alt="Logo do projeto - DETECCAR" />
-</p>
-
 
 ## 🎥 Demonstração simples
 
@@ -22,45 +18,33 @@ Este repositório contém o código-fonte e os recursos necessários para um pro
 
 **Back-end:** OpenCV, YOLO e Ultralytics
 
-
-## Variáveis de Ambiente
-
-Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu Notebook Google Colab
-
-```bash
-# Às vezes Colab reclama por não conseguir ler caracteres especiais, por isso vamos localmente forçá-lo leio-o diretamente.
-import locale
-locale.getpreferredencoding = lambda: "UTF-8"
-```
-
-```bash
-# Desativando os avisos no notebook para manter células de saída limpas
-import warnings
-warnings.filterwarnings('ignore')
 ```
 ## Instalação
 
 Instalação necessária para rodar o código:
 
 ```bash
-# Instalação da biblioteca Ultralytics
-!pip install ultralytics
-```
+# -*- coding: utf-8 -*-
+"""DETECCAR: Detecção de Veículos e Controle de Semáforos Inteligentes com YOLOv8"""
 
-
-```bash
-# Importação das bibliotecas necessárias
+# 📌 Importação das bibliotecas necessárias
 import os
-import shutil
+import cv2
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import cv2
+import random
+import warnings
 import yaml
 from PIL import Image
 from ultralytics import YOLO
-from IPython.display import Videos
+from IPython.display import Video, display
+
+warnings.filterwarnings('ignore')  # Removendo avisos desnecessários
+
+# 📌 Configuração do Seaborn para visualização de gráficos
+sns.set(rc={'axes.facecolor': '#eae8fa'}, style='darkgrid')
 ```
     
 ## Funcionalidades
@@ -98,9 +82,6 @@ Esta subseção apresenta alguns trabalhos que foram utilizados como referência
  - [Real-Time Traffic Density Estimation with YOLOv8](https://www.kaggle.com/code/farzadnekouei/real-time-traffic-density-estimation-with-yolov8)
 
 Este conjunto de dados e código foram fundamentais para o desenvolvimento e treinamento do modelo de detecção de veículos neste projeto.
-
-### Arquivo Completo do Código-Fonte & Imagens utilizadas
-- [DropBox](https://www.dropbox.com/scl/fi/ykmx853vfkx6bf6ezph3r/DETECCAR.zip?rlkey=i521eryq319cwczij6fylwn3c&dl=0)
 
 ## Licença
 
